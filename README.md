@@ -1,2 +1,3 @@
-# rosalind
-My ROSALIND solutions in Rust
+# ROSALIND
+
+My [ROSALIND](http://rosalind.info) solutions in Rust

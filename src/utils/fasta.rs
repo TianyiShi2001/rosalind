@@ -12,6 +12,10 @@ pub fn read_fasta(inp: &'static str) -> impl Iterator<Item = (&'static str, Stri
     })
 }
 
+pub fn read_fasta_seq(inp: &'static str) -> impl Iterator<Item = String> {
+    read_fasta(inp).map(|x| x.1)
+}
+
 #[derive(Default, Clone, Debug)]
 pub struct Record<'a> {
     pub id: &'a str,

@@ -1,5 +1,5 @@
 pub mod fasta;
-pub use fasta::read_fasta;
+pub use fasta::*;
 use std::str::FromStr;
 
 // fn args<T>(s: &'static str, f: impl Fn(&str) -> T) -> impl IntoIterator<Item = T> {
