@@ -19,6 +19,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822"
 
 [[package]]
+name = "cs"
+version = "0.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6a08efcd15fc3ad145df4612c35ccbe0a0a3f68632a53157e14a95754fe4ae72"
+dependencies = [
+ "suffix",
+]
+
+[[package]]
 name = "lexical-core"
 version = "0.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -67,6 +76,7 @@ checksum = "6448add382c60bbbc64f9dab41309a12ec530c05191601042f911356ac09758c"
 name = "rosalind"
 version = "0.1.0"
 dependencies = [
+ "cs",
  "min-max",
  "nom",
 ]
@@ -82,6 +92,12 @@ name = "static_assertions"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f"
+
+[[package]]
+name = "suffix"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "852c4bf4045a083483eb7ec6ffeb088f4befebc0738a8d86d1b169f12c52214d"
 
 [[package]]
 name = "version_check"
